@@ -11,7 +11,7 @@ culture_parameter_unlock_maa_western_cataphract:0 "Может нанимать [
 culture_parameter_unlock_maa_eastern_cataphract:0 "Может нанимать [GetMaA('eastern_cataphract').GetName] как [men_at_arms|E]"
 culture_parameter_unlock_maa_exkoubitoi:0 "Может нанимать [GetMaA('exkoubitoi').GetName] как [men_at_arms|E]"
 culture_parameter_unlock_maa_exploratores:0 "Может нанимать [GetMaA('exploratores').GetName] как [men_at_arms|E]"
-culture_parameter_children_can_be_born_in_the_red:2 "[children|E] рождённые у [ruler|E] $e_roman_empire$ и владеющим округом $c_roma$ могут получить [trait|E] [GetTrait('born_in_the_red').GetName( GetNullCharacter )] - Такие дети имеют приоритет в [line_of_succession|E]"
+culture_parameter_children_can_be_born_in_the_red:2 "[children|E] рождённые у [Concept( 'ruler', 'правителя' )|E] державы $e_roman_empire$ и владеющим округом $c_roma$ могут рождаться со [Concept( 'trait', 'свойством' )|E] [GetTrait('born_in_the_red').GetName( GetNullCharacter )] - Такие дети имеют приоритет в [Concept( 'line_of_succession', 'линии наследования' )|E]"
 
 legionarii:0 "Когорта Легионеров"
 scholares:0 "Схоляры Палатины"
